@@ -1,3 +1,4 @@
+#include "instruments.h"
 #include <vector>
 #include <math.h>
 #include <random>
@@ -6,7 +7,7 @@
 #pragma once
 
 namespace phmac {
-  class Stock{
+  class Stock: Public Instrument() {
   public:
     Stock(double, double);  //Constructor stock just requires mu, and volatility to construct
     ~Stock(); //Destructor
