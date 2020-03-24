@@ -7,7 +7,7 @@
 int main(){
   prm::Stock *appl;
   appl = new prm::Stock(.60, .02);
-  std::cout << appl->genNormScen(5,1) << "\n";
+  std::cout << appl->genStdScen(5,1) << "\n";
 
 
   delete appl;

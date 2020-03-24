@@ -1,8 +1,4 @@
 #include "instruments.h"
-#include <vector>
-#include <math.h>
-#include <random>
-#include <chrono>
 
 #pragma once
 
@@ -13,10 +9,12 @@ namespace prm {
     ~Stock(); //Destructor
     std::vector<double> genNormPath(double, double, int);
     double genNormScen(double, double);
-    //double genStdPath()
-    //double genStdScen()
+    std::vector<double> genStdPath(double, double, int);
+    double genStdScen(double, double);
     double getvol();
     double getmu();
+    void setvol(double);
+    void setmu(double);
   private:
     double mu_, vol_;
   };

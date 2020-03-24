@@ -1,4 +1,9 @@
-//Include
+#include <vector>
+#include <math.h>
+#include <random>
+#include <chrono>
+
+
 #pragma once
 namespace prm {
 class Instrument{
