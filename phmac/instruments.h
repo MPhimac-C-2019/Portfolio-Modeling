@@ -1,10 +1,11 @@
 //Include
+#pragma once 
 namespace phmac {
-class Instruments{
+class Instrument{
 public:
   Instrument(); //Constructor
   ~Instrument();  //Destructor
-  getPrice(); //Get function
+  double getPrice(); //Get function
 private:
   double price_;
 };

@@ -7,7 +7,7 @@
 #pragma once
 
 namespace phmac {
-  class Stock: Public Instrument() {
+  class Stock: public Instrument{
   public:
     Stock(double, double);  //Constructor stock just requires mu, and volatility to construct
     ~Stock(); //Destructor
