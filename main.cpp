@@ -1,13 +1,13 @@
 #include <iostream>
-#include "phmac/instruments.h"
-#include "phmac/stock.h"
+#include "prm/instruments.h"
+#include "prm/stock.h"
 
 
 
 int main(){
-  phmac::Stock *appl;
-  appl = new phmac::Stock(.60, .02);
-  std::cout << appl->getvol();
+  prm::Stock *appl;
+  appl = new prm::Stock(.60, .02);
+  std::cout << appl->genNormScen(5,1) << "\n";
 
 
   delete appl;

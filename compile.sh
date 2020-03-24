@@ -1,1 +1,1 @@
-g++ -o main main.cpp phmac/instruments.cpp phmac/stock.cpp
+g++ -o main main.cpp prm/instruments.cpp prm/stock.cpp

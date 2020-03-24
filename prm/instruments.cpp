@@ -1,5 +1,5 @@
 #include "instruments.h"
-namespace phmac{
+namespace prm{
   Instrument::Instrument(){
 
   }

@@ -1,6 +1,6 @@
 //Include
-#pragma once 
-namespace phmac {
+#pragma once
+namespace prm {
 class Instrument{
 public:
   Instrument(); //Constructor
