@@ -2,6 +2,7 @@
 #include <math.h>
 #include <random>
 #include <chrono>
+#include <algorithm>
 
 
 #pragma once
