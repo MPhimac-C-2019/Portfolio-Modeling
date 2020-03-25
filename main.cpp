@@ -7,9 +7,11 @@
 int main(){
   prm::Stock *appl;
   appl = new prm::Stock(.60, .02);
-  std::cout << appl->genStdScen(5,1) << "\n";
 
+  prm::eurocall option1(5,1,appl);
+  std::cout << option1.eurocallMCPrice(5,.02,0,100000) << "\n";
 
+  std::cout << "Done" <<"\n";
   delete appl;
   appl = nullptr;
   return 0;

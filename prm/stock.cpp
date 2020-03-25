@@ -6,7 +6,7 @@ namespace prm{
   }
 
   Stock::~Stock(){}
-  
+
   double Stock::getvol(){
     return vol_;
   }
@@ -16,7 +16,7 @@ namespace prm{
   void Stock::setvol(double vol){
     vol_ = vol;
   }
-  void Stock::getmu(double mu){
+  void Stock::setmu(double mu){
     mu_ = mu;
   }
 
