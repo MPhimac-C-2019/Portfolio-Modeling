@@ -5,3 +5,4 @@
 - Compile & update your branch
 - We will discuss features and commit all the best to the master
 - Continue to work on instruments 
+-T_z testing the branching and git version control
