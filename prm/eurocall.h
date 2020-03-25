@@ -5,10 +5,12 @@
 namespace prm {
   class eurocall: public Instrument{
   public:
-    //eurocall(double, double);  //Constructor stock just requires mu, and volatility to construct
-
+    eurocall(double, double, Stock);//K //T  //Constructor stock just requires mu, and volatility to construct
+    ~eurocall();
+    double eurocallMCPrice(double, double, double, int); //S0 //r //t
   private:
-    double K_, T_, S_;
+    double K_, T_;
+    Stock *Stock_;
   };
 
 }

@@ -1,7 +1,7 @@
 #include <iostream>
 #include "prm/instruments.h"
 #include "prm/stock.h"
-
+#include "prm/eurocall.h"
 
 
 int main(){
