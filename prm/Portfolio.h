@@ -1,7 +1,11 @@
 #pragma once
 
-#include <vector>
 #include "Instrument.h"
+
+#include <iostream>
+#include <vector>
+
+using std::ostream;
 
 namespace prm
 {
